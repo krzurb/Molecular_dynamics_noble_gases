@@ -40,7 +40,7 @@ Program składa się z dwóch plików:
 i tworzy dwa pliki wynikowe:
 - "result.txt"
 - "avs.xyz"
-- 
+
 Początkową konfigurację można zmienić w pliku parameters.txt. Ten plik zawiera następujące zmienne:
 
 * n - liczba atomów wzdłuż jednego kierunku (atomy tworzą strukturę kubiczną, więc N=n^3, gdzie N to całkowita liczba atomów)
