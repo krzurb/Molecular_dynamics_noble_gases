@@ -61,3 +61,7 @@ Po uruchomieniu pliku argon.py, użytkownik otrzymuje informacje o stanie począ
 Po zakończeniu programu, użytkownik otrzymuje informacje o czasie wykonania, a wyniki są zapisywane w dwóch plikach (result.txt i avs.xyz).
 * Plik result.txt zawiera linie reprezentujące obliczenia dla danego kroku czasowego. Każda linia przechowuje wartości w następującej kolejności: czas, energia całkowita, energia potencjalna, temperatura i ciśnienie. Pierwsze 3 wartości w ostatniej linii reprezentują średnie wartości: energia całkowita, temperatura i ciśnienie.
 * Plik avs.xyz zawiera linie z pozycjami x, y, z atomów. Każdy krok czasowy oddzielony jest przez liczbę atomów N i nazwę atomów w systemie (w tym przypadku - Argon). Ten plik można otworzyć w systemach grafiki molekularnej, takich jak Jmol.
+
+Numerical describtion by dr inż. Krzysztof Zberecki, Warsaw University of Technology.
+Opis numeryczny autorstwa dr inż. Krzysztofa Zbereckiego, Politechnika Warszawska.
+
