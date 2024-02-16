@@ -63,5 +63,6 @@ Po zakończeniu programu, użytkownik otrzymuje informacje o czasie wykonania, a
 * Plik avs.xyz zawiera linie z pozycjami x, y, z atomów. Każdy krok czasowy oddzielony jest przez liczbę atomów N i nazwę atomów w systemie (w tym przypadku - Argon). Ten plik można otworzyć w systemach grafiki molekularnej, takich jak Jmol.
 
 Numerical describtion by dr inż. Krzysztof Zberecki, Warsaw University of Technology.
+
 Opis numeryczny autorstwa dr inż. Krzysztofa Zbereckiego, Politechnika Warszawska.
 
