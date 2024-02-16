@@ -32,6 +32,8 @@ When the program is finished, user gets information about execution time and the
 time, total energy, potential energy, temperature and pressure. First 3 values in the last line represents average values: total energy, temperature and pressure.
 * avs.xyz file includes lines of x,y,z positions of atoms. Each time step is separated by number of atomos N and name of atomos in the system (in this case - Argon). This file can be opened in molecular graphics systems such as Jmol.
 
+Numerical describtion by dr inż. Krzysztof Zberecki, Warsaw University of Technology.
+
 PL
 
 Program składa się z dwóch plików:
@@ -61,9 +63,6 @@ Po uruchomieniu pliku argon.py, użytkownik otrzymuje informacje o stanie począ
 Po zakończeniu programu, użytkownik otrzymuje informacje o czasie wykonania, a wyniki są zapisywane w dwóch plikach (result.txt i avs.xyz).
 * Plik result.txt zawiera linie reprezentujące obliczenia dla danego kroku czasowego. Każda linia przechowuje wartości w następującej kolejności: czas, energia całkowita, energia potencjalna, temperatura i ciśnienie. Pierwsze 3 wartości w ostatniej linii reprezentują średnie wartości: energia całkowita, temperatura i ciśnienie.
 * Plik avs.xyz zawiera linie z pozycjami x, y, z atomów. Każdy krok czasowy oddzielony jest przez liczbę atomów N i nazwę atomów w systemie (w tym przypadku - Argon). Ten plik można otworzyć w systemach grafiki molekularnej, takich jak Jmol.
-
-
-Numerical describtion by dr inż. Krzysztof Zberecki, Warsaw University of Technology.
 
 Opis numeryczny autorstwa dr inż. Krzysztofa Zbereckiego, Politechnika Warszawska.
 
