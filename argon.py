@@ -98,6 +98,10 @@ def time_simulation(Ek_init, V_init, Pre_init, T_0, p_init, F_init, S_o, S_d, S_
     print(0, Ek_init + V_init, V_init, T_0, Pre_init)
     half_m=0.5/m
     Tem_const=2 / (3 * N * k_B)
+    count=0
+    H_bar=0.0
+    T_bar=0.0
+    P_bar=0.0
     for t in range(1, S_o + S_d):
         p_half_tau = p[t - 1] + 0.5 * Force * tau
         r[t] = r[t - 1] + (p_half_tau / m) * tau
@@ -108,10 +112,19 @@ def time_simulation(Ek_init, V_init, Pre_init, T_0, p_init, F_init, S_o, S_d, S_
             Tempe=Tem_const*EK
             V = potential_energy(N, r[t], e, R, L, f)
             print(t * tau, EK+V, V, Tempe, Pre)
+            if t>S_o:
+                H_bar+=EK+V
+                T_bar+=Tempe
+                P_bar+=Pre
+                count=count+1
         if t % S_xyz == 0:
             index = int(t / S_xyz)
             r_xyz[index] = r[t]
             Ekin[index] = half_m * np.sum(p[t] * p[t], axis=1)
+    H_bar=H_bar/count
+    T_bar=T_bar/count
+    P_bar=P_bar/count
+    print(H_bar,T_bar,P_bar,0,0)
     return r_xyz, Ekin
 #############################################################################################################
 start_time = time.time()
@@ -168,9 +181,3 @@ with open('avs.xyz', 'w') as f3:
                 f3.write(f"Ar {r_xyz[t,i,0]:.3f} {r_xyz[t,i,1]:.3f} {r_xyz[t,i,2]:.3f}\n")
 end_time = time.time()
 print('Code executed in ',end_time-start_time)
-
-
-
-
-
-
