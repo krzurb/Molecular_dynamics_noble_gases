@@ -34,6 +34,8 @@ time, total energy, potential energy, temperature and pressure. First 3 values i
 
 Numerical describtion by dr inż. Krzysztof Zberecki, Warsaw University of Technology.
 
+
+
 PL
 
 Program składa się z dwóch plików:
