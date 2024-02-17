@@ -42,6 +42,7 @@ PL
 Program składa się z dwóch plików:
 - argon.py (plik wykonywalny w języku Python)
 - parameters.txt (plik z początkowymi parametrami)
+
 i tworzy dwa pliki wynikowe:
 - "result.txt"
 - "avs.xyz"
