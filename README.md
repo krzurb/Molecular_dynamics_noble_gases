@@ -7,6 +7,7 @@ ENG
 Program consists of two files:
 - argon.py (executable python file)
 - parameters.txt (file with initital parameters)
+
 and creates two output file:
 - "result.txt"
 - "avs.xyz"
