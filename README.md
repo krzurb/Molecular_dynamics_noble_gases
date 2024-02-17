@@ -25,6 +25,7 @@ Initial configuration can be changed in parameters.txt file. This file contains 
 * S_d - number of steps after S_o (S_d+S_o = total number of time steps)
 * S_out - every S_out steps, instantaneous values are saved into result.txt
 * S_xyz - every S_xyz steps, instantaneous positions of atoms are saved into avs.xyz
+
 The configuartion given in this repository is valid for argon atoms.
 
 After running argon.py file, user gets information about initial state in terminal (number of atomos N, T_0, kinetic energy, potential energy and total energy).
@@ -61,6 +62,7 @@ Początkową konfigurację można zmienić w pliku parameters.txt. Ten plik zawi
 * S_d - liczba kroków po S_o (S_d+S_o = całkowita liczba kroków czasowych)
 * S_out - co S_out kroków zapisywane są chwilowe wartości do result.txt
 * S_xyz - co S_xyz kroków zapisywane są chwilowe pozycje atomów do avs.xyz
+
 Konfiguracja zawarta w tym repozytorium ma zastasowanie dla atomów argonu.
 
 Po uruchomieniu pliku argon.py, użytkownik otrzymuje informacje o stanie początkowym w terminalu (liczba atomów N, T_0, energia kinetyczna, energia potencjalna i energia całkowita).
