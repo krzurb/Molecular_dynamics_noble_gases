@@ -68,7 +68,7 @@ Konfiguracja zawarta w tym repozytorium ma zastasowanie dla atomów argonu.
 Po uruchomieniu pliku argon.py, użytkownik otrzymuje informacje o stanie początkowym w terminalu (liczba atomów N, T_0, energia kinetyczna, energia potencjalna i energia całkowita).
 Po zakończeniu programu, użytkownik otrzymuje informacje o czasie wykonania, a wyniki są zapisywane w dwóch plikach (result.txt i avs.xyz).
 * Plik result.txt zawiera linie reprezentujące obliczenia dla danego kroku czasowego. Każda linia składa się z wartości w następującej kolejności: czas, energia całkowita, energia potencjalna, temperatura i ciśnienie. Pierwsze 3 wartości w ostatniej linii reprezentują średnie wartości: energia całkowita, temperatura i ciśnienie.
-* Plik avs.xyz zawiera linie z pozycjami x, y, z atomów. Każdy krok czasowy oddzielony jest przez liczbę atomów N i nazwę atomów w systemie (w tym przypadku - Argon). Ten plik można otworzyć w programach do wizualizacji molekularnej, takich jak Jmol.
+* Plik avs.xyz zawiera linie z pozycjami x, y, z wszystkich atomów. Każdy krok czasowy oddzielony jest przez liczbę atomów N i nazwę atomów w systemie (w tym przypadku - Argon). Ten plik można otworzyć w programach do wizualizacji molekularnej, takich jak Jmol.
 
 Opis numeryczny autorstwa dr inż. Krzysztofa Zbereckiego, Politechnika Warszawska.
 
